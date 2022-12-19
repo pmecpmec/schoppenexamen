@@ -69,3 +69,70 @@ margin-left:30px;
   background-color: #2868c7;
     transition: background-color 0.2s;
 }   
+/* Dit is voor de homepage */
+.hometop {
+	background-color: #2f3947;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.hometop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.hometop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.hometop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.hometop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.hometop div a i {
+	padding: 2px 8px 0 0;
+}
+.hometop div a:hover {
+	color: #eaebed;
+}
+
+.homecontent {
+	width: 1000px;
+	margin: 0 auto;
+}
+.homecontent h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.homecontent > p, .homecontent > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.homecontent > p table td, .homecontent > div table td {
+	padding: 5px;
+}
+.homecontent > p table td:first-child, .homecontent > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.homecontent > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
