@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="style.css">
 </header>
 <body>
-
+<!-- Zoek bar -->
 <div class="Admin">
   <form action="/form/submit" method="GET"> 
   <input type="text" name="text" class="search" placeholder="Search For">
@@ -15,6 +15,7 @@
  <p>Accounts</p>
  </div>
 
+<!-- Accounts, Vacatures, CV tabellen met de bijbehoorende knoppen-->
 <div class="Accounts">
   <table>
     <tr>
