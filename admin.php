@@ -9,14 +9,17 @@
   <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 </div>
+<h1>Accounts</h1>
 <div class="Accounts">
   <button>Button</button>
   <button>Button</button>
 </div>
+<h2>Vacatures</h2>
 <div class="Vacature">
   <button>Button</button>
   <button>Button</button>
 </div>
+<h3>CV</h3>
 <div class="CV">
   <button>Button</button>
   <button>Button</button>
