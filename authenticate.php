@@ -19,9 +19,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
   $stmt->execute();
   // Bewaar de informatie in de database als het account bestaat.
   $stmt->store_result();
-
-
-  20.160.155.255
+}
 $stmt->store_result();
 if ($stmt->num_rows > 0) {
   $stmt->bind_result($id, $password);
