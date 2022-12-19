@@ -1,3 +1,4 @@
+/*Dit is voor de download CV pagina*/
 .Download {
 text-align:left;
 margin-top:50px;
@@ -9,11 +10,13 @@ margin-left:30px;
     margin-right:800px;
 }
 
+/*Dit is voor de prikbord CV pagina*/
 .Prikbord{
     text-align:center;
     margin-top:60px;
 }
 
+/*Dit is voor de admin CV pagina*/
 .Admin{
     text-align:center;
     margin-top:60px;
