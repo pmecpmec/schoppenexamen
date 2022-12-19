@@ -6,7 +6,7 @@
 <body>
 <div class="Prikbord">
   <form action="/form/submit" method="GET"> 
-  <input type="text" name="text" class="search" placeholder="#">
+  <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 </div>
 </body>
