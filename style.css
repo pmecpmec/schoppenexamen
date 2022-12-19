@@ -26,6 +26,38 @@ margin-left:400px;
     text-align:center;
     margin-top:60px;
 }
+
+
+.Accounts{
+    text-align:left;
+    width:250px;
+}
+
+.Button-Accounts{
+    text-align:right;
+    margin-right:600px;
+}
+
+.Vacature{
+    text-align:left;
+    width:250px;
+}
+
+.Button-Vacature{
+    text-align:right;
+    margin-right:600px;
+}
+
+.CV{
+    text-align:left;
+    width:250px;
+}
+
+.Button-CV{
+    text-align:right;
+    margin-right:600px;
+}
+
 /* Dit is voor de login pagina */
 .login {
     width: 400px;
