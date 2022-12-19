@@ -1,6 +1,6 @@
 <?php
 session_start();
-$DATABASE_HOST = '0.0.0.0';
+$DATABASE_HOST = '20.160.155.255';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = 'mysql1234';
 $DATABASE_NAME = 'phplogin';
@@ -21,8 +21,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
   $stmt->store_result();
 
 
-  $stmt->close();
-}
+  20.160.155.255
 $stmt->store_result();
 if ($stmt->num_rows > 0) {
   $stmt->bind_result($id, $password);
