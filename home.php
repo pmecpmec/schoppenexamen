@@ -10,15 +10,17 @@ if (!isset($_SESSION['loggedin'])) {
 <html>
 
 <head>
-<center>
-    <h1>Home</h1>
-</center>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 </head>
 
 <body>
     <center>
     <p>Welcome</p>
     <center>
+  <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 
 </html>

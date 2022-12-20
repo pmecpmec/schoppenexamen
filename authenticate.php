@@ -1,8 +1,8 @@
 <?php
 session_start();
-$DATABASE_HOST = '20.160.76.183';
+$DATABASE_HOST = '0.0.0.0';
 $DATABASE_USER = 'root';
-$DATABASE_PASS = 'mysql1234';
+$DATABASE_PASS = '1234';
 $DATABASE_NAME = 'phplogin';
 // Probeert een connectie te maken met de database.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
@@ -19,9 +19,6 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
   $stmt->execute();
   // Bewaar de informatie in de database als het account bestaat.
   $stmt->store_result();
-
-
-  $stmt->close();
 }
 $stmt->store_result();
 if ($stmt->num_rows > 0) {
@@ -36,7 +33,7 @@ if ($stmt->num_rows > 0) {
     $_SESSION['loggedin'] = TRUE;
     $_SESSION['name'] = $_POST['username'];
     $_SESSION['id'] = $id;
-    echo 'Welkom ' . $_SESSION['name'] . '!';
+    header('Location: home.php');
   } else {
     // Verkeerde Wacthwoord
     echo 'Onjuiste gebruikersnaam en/of wachtwoord!';
