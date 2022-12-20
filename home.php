@@ -1,24 +1,24 @@
-<!Doctype html>
+<?php
+session_start();
+// Als de gebruiker niet ingelogd is gaat hij terug naar de start pagina. 
+if (!isset($_SESSION['loggedin'])) {
+  header('Location: index.html');
+  exit;
+}
+?>
+<!DOCTYPE html>
 <html>
 
 <head>
 <center>
     <h1>Home</h1>
 </center>
-
-<ul>
-  <li><a href="#---">file</a></li>
-  <li><a href="#---">account</a></li>
-  <li><a href="#---">login</a></li>
-</ul>
-
 </head>
 
 <body>
-<center>
+    <center>
     <p>Welcome</p>
-</center>
-
+    <center>
 </body>
 
 </html>
