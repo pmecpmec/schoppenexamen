@@ -7,13 +7,13 @@
     <div class="header">
         <img class="headerlogoimg" src="xxl_logo.png">
         <div class="language"">
-            <button>language</button>
+            <button>Taal</button>
         </div>
         <div class="file"">
-            <button>file</button>
+            <button>Bestanden</button>
         </div>
         <div class="account"">
-            <button>account</button>
+            <button>Account</button>
         </div>
 
         <div class="loginandout"">
