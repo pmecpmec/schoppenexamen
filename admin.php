@@ -2,6 +2,9 @@
 <html>
 <header>
 <link rel="stylesheet" href="style.css">
+<?php
+include 'header.php'
+?>
 </header>
 <body>
 <!-- Zoek bar -->
@@ -75,4 +78,5 @@
     <button>Button</button>
     <button>Button</button>
   </div>
+<footer id="footer"><?php include'footer.php' ?></footer>
 </body>

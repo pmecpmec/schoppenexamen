@@ -2,9 +2,11 @@
 <html>
 <header>
    <link rel="stylesheet" href="style.css">
+   <?php
+    include 'header.php'
+    ?>
 </header>
 <body>
-<!--Zoek bar-->
 <div class="Prikbord">
   <form action="/form/submit" method="GET"> 
   <input type="text" name="text" class="search" placeholder="Search For">
@@ -20,5 +22,6 @@
 <hr>
   <b>Vacature</b>
 </div>
+<footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 </html>
