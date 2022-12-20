@@ -31,6 +31,9 @@ $stmt->close();
   <title>Profile Page</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <?php
+include 'header.php'
+?>
 </head>
 
 <body class="loggedin">
@@ -61,6 +64,7 @@ $stmt->close();
       </table>
     </div>
   </div>
+  <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 
 </html>
