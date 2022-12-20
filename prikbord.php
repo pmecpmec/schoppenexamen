@@ -20,7 +20,7 @@
 <hr>
 <?php
 echo '<p>Vacature Bedrijf</p>';
-echo'<p>File Name: </p>'.$pdf;
+echo'<p>Vacature functie: </p>'.$pdf;
 ?>
 </div>
 <iframe src="<?php echo $path.$pdf; ?>" width="60%" height="350px">
