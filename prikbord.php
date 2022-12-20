@@ -15,13 +15,16 @@
 
 <!--Vacatures-->
 <div class="Vacatures">
+  
+<!-- Vacature bedrijf-->
 <hr>
-  <b>Vacature</b>
-<br>
-<br>
-<hr>
-  <b>Vacature</b>
+<?php
+echo '<p>Vacature Bedrijf</p>';
+echo'<p>File Name: </p>'.$pdf;
+?>
 </div>
+<iframe src="<?php echo $path.$pdf; ?>" width="60%" height="350px">
+
 <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 </html>
