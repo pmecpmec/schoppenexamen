@@ -2,7 +2,7 @@
 session_start();
 $DATABASE_HOST = '0.0.0.0';
 $DATABASE_USER = 'root';
-$DATABASE_PASS = '1234';
+$DATABASE_PASS = 'mysql1234';
 $DATABASE_NAME = 'phplogin';
 // Probeert een connectie te maken met de database.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
@@ -12,7 +12,7 @@ if (mysqli_connect_errno()) {
 } // Kijkt nu of de informatie klopt wat is ingevuld.
 if (!isset($_POST['username'], $_POST['password'])) {
   // Heeft de informatie niet binnengekregen.
-  exit('Vul alstublieft uw gebruikersnaam en wacthwoord in!');
+  exit('Vul alstublieft uw gebruikersnaam en wachtwoord in!');
 }
 if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
   $stmt->bind_param('s', $_POST['username']);

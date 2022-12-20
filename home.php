@@ -14,6 +14,12 @@ if (!isset($_SESSION['loggedin'])) {
   <title>Home Page</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+  <center>
+    <h1>Uitzendbureau XXL<h1>
+    <h1>Home</h1>
+</center>
+
 </head>
 
 <body>
@@ -24,3 +30,4 @@ if (!isset($_SESSION['loggedin'])) {
 </body>
 
 </html>
+}
