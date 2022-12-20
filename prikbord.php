@@ -7,12 +7,21 @@
     ?>
 </header>
 <body>
-<include src="./header.html"></include>
 <div class="Prikbord">
   <form action="/form/submit" method="GET"> 
   <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 </div>
 <footer id="footer"><?php include'footer.php' ?></footer>
+
+<!--Vacatures-->
+<div class="Vacatures">
+<hr>
+  <b>Vacature</b>
+<br>
+<br>
+<hr>
+  <b>Vacature</b>
+</div>
 </body>
 </html>
