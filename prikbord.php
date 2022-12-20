@@ -12,7 +12,6 @@
   <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 </div>
-<footer id="footer"><?php include'footer.php' ?></footer>
 
 <!--Vacatures-->
 <div class="Vacatures">
@@ -23,5 +22,6 @@
 <hr>
   <b>Vacature</b>
 </div>
+<footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 </html>
