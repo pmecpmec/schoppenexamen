@@ -14,6 +14,9 @@ if (!isset($_SESSION['loggedin'])) {
   <title>Home Page</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <?php
+include 'header.php'
+?>
 </head>
 
 <body class="loggedin">
@@ -28,6 +31,7 @@ if (!isset($_SESSION['loggedin'])) {
     <h2>Home Page</h2>
     <p>Welcome back, <?= $_SESSION['name'] ?>!</p>
   </div>
+  <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 
 </html>
