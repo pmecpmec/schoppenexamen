@@ -12,7 +12,7 @@ if (mysqli_connect_errno()) {
 } // Kijkt nu of de informatie klopt wat is ingevuld.
 if (!isset($_POST['username'], $_POST['password'])) {
   // Heeft de informatie niet binnengekregen.
-  exit('Vul alstublieft uw gebruikersnaam en wacthwoord in!');
+  exit('Vul alstublieft uw gebruikersnaam en wachtwoord in!');
 }
 if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
   $stmt->bind_param('s', $_POST['username']);
