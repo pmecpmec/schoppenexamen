@@ -33,7 +33,7 @@ if ($stmt->num_rows > 0) {
     $_SESSION['loggedin'] = TRUE;
     $_SESSION['name'] = $_POST['username'];
     $_SESSION['id'] = $id;
-    echo 'Welkom ' . $_SESSION['name'] . '!';
+    header('Location: home.php');
   } else {
     // Verkeerde Wacthwoord
     echo 'Onjuiste gebruikersnaam en/of wachtwoord!';
