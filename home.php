@@ -35,8 +35,8 @@ if (!isset($_SESSION['loggedin'])) {
 <body>                                                                                <!--body-->
     <center>
     <p>Welkom</p>
-    <p>multimedia internationaal uitzendbureau XXL</p>
-    <center>
+    <p>multimedia internationaal uitzendbureau XXL.</p>
+    </center>
  
 
   <br>
