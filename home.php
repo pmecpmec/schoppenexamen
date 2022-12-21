@@ -20,6 +20,12 @@ if (!isset($_SESSION['loggedin'])) {
     <h1>Home</h1>
 </center>
 
+<ul>
+  <li><a href="#File">FIle</a></li>
+  <li><a href="#account">account</a></li>
+  <li><a href="#login">login</a></li>
+</ul>
+
 </head>
 
 <body>
