@@ -37,7 +37,9 @@ if (!isset($_SESSION['loggedin'])) {
     <p>Welkom</p>
     <p>multimedia internationaal uitzendbureau XXL</p>
     <center>
-  <footer id="footer"><?php include'footer.php' ?></footer>                           <!--footer-->
+ 
+    <footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
+    </footer>                           
 
 </body>
 
