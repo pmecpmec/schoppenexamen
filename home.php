@@ -36,4 +36,3 @@ if (!isset($_SESSION['loggedin'])) {
 </body>
 
 </html>
-}
