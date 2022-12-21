@@ -21,9 +21,9 @@ if (!isset($_SESSION['loggedin'])) {
 </center>
 
 <ul>
-  <li><a href="#File">FIle</a></li>
-  <li><a href="#account">account</a></li>
   <li><a href="#login">login</a></li>
+  <li><a href="#account">account</a></li>
+  <li><a href="#File">File</a></li>
 </ul>
 
 </head>
