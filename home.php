@@ -7,15 +7,17 @@ if (!isset($_SESSION['loggedin'])) {
 }
 ?>
 <!DOCTYPE html>
+
 <html>
 
 <head>                                                                                <!--head-->
+
   <meta charset="utf-8">
   <title>Home</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
-  <center>
+<center>
     <h1>Uitzendbureau XXL<h1>
     <h1>Thuispagina</h1>
 </center>
@@ -33,6 +35,7 @@ if (!isset($_SESSION['loggedin'])) {
     <p>multimedia internationaal uitzendbureau XXL</p>
     <center>
   <footer id="footer"><?php include'footer.php' ?></footer>                           <!--footer-->
+
 </body>
 
 </html>
