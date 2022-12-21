@@ -3,13 +3,18 @@
 <html>
     
 
-<header>                                                                                                                                        <!--head-->
+<head>                                                                                                                                        <!--head-->
+
+<meta charset="utf-8">
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
 <center>
         <h1>Voorlichtingspagina</h1>
 </center>
 
-</header>
+</head>
 
 <br>
 </br>
