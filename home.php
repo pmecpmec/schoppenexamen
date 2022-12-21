@@ -20,11 +20,10 @@ if (!isset($_SESSION['loggedin'])) {
     <h1>Thuispagina</h1>
 </center>
 
-<ul>                                                                                  <!--links naar andere pagina's-->
-  <li><a href="#Login">login</a></li>
-  <li><a href="#Account">account</a></li>
-  <li><a href="#Bestand">Bestand</a></li>
-</ul>
+<a href="#-------">Inlog</a><br />                                             <!--links naar andere pagina's-->
+  <a href="#-----">Bestand</a><br />
+  <a href="#-----">Account</a><br />
+  <a href="#-----">Voorlichtingspagina</a><br />                                                                   
 
 </head>
 
