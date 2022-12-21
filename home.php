@@ -11,13 +11,13 @@ if (!isset($_SESSION['loggedin'])) {
 
 <head>
   <meta charset="utf-8">
-  <title>Home Page</title>
+  <title>Home</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
   <center>
     <h1>Uitzendbureau XXL<h1>
-    <h1>thuispagina</h1>
+    <h1>Thuispagina</h1>
 </center>
 
 <ul>
