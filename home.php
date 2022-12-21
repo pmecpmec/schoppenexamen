@@ -17,20 +17,21 @@ if (!isset($_SESSION['loggedin'])) {
 
   <center>
     <h1>Uitzendbureau XXL<h1>
-    <h1>Home</h1>
+    <h1>thuispagina</h1>
 </center>
 
 <ul>
   <li><a href="#login">login</a></li>
   <li><a href="#account">account</a></li>
-  <li><a href="#File">File</a></li>
+  <li><a href="#Bestand">Bestand</a></li>
 </ul>
 
 </head>
 
 <body>
     <center>
-    <p>Welcome</p>
+    <p>Welkom</p>
+    <p>multimedia internationaal uitzendbureau XXL</p>
     <center>
   <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
