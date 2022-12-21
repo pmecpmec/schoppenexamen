@@ -45,7 +45,7 @@ if (!isset($_SESSION['loggedin'])) {
   <footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
   
   <center>
-    <p>XXL 2022@ </p>  
+    <p>@ XXL 2022</p>  
 </center>
 
   </footer>                           
