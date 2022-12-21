@@ -29,6 +29,9 @@ if (!isset($_SESSION['loggedin'])) {
 
 </head>
 
+<br>
+</br>
+
 <body>                                                                                <!--body-->
     <center>
     <p>Welkom</p>
