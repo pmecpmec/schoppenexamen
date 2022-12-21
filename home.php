@@ -9,7 +9,7 @@ if (!isset($_SESSION['loggedin'])) {
 <!DOCTYPE html>
 <html>
 
-<head>
+<head>                                                                                <!--head-->
   <meta charset="utf-8">
   <title>Home</title>
   <link href="style.css" rel="stylesheet" type="text/css">
@@ -20,7 +20,7 @@ if (!isset($_SESSION['loggedin'])) {
     <h1>Thuispagina</h1>
 </center>
 
-<ul>
+<ul>                                                                                  <!--links naar andere pagina's-->
   <li><a href="#Login">login</a></li>
   <li><a href="#Account">account</a></li>
   <li><a href="#Bestand">Bestand</a></li>
@@ -28,12 +28,12 @@ if (!isset($_SESSION['loggedin'])) {
 
 </head>
 
-<body>
+<body>                                                                                <!--body-->
     <center>
     <p>Welkom</p>
     <p>multimedia internationaal uitzendbureau XXL</p>
     <center>
-  <footer id="footer"><?php include'footer.php' ?></footer>
+  <footer id="footer"><?php include'footer.php' ?></footer>                           <!--footer-->
 </body>
 
 </html>
