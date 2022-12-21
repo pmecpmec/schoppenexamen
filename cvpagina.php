@@ -17,10 +17,7 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="style.css">
 
    <!-- Script
    ================================================== -->
@@ -40,9 +37,15 @@
 
       <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-          <a class="mobile-btn" href="#" title="Hide navigation">Language</a>
+    
+          <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Language</button>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="#">Nederlands</a>
+          <a href="#">Engels</a>
+          <a href="#">Link 3</a>
+  </div>
+</div>
           <a class="mobile-btn" href="#" title="Hide navigation">File</a>
           <a class="mobile-btn" href="#" title="Hide navigation">View</a>
           <a class="mobile-btn" href="#" title="Hide navigation">Help</a>
