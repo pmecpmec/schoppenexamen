@@ -38,8 +38,17 @@ if (!isset($_SESSION['loggedin'])) {
     <p>multimedia internationaal uitzendbureau XXL</p>
     <center>
  
-    <footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
-    </footer>                           
+
+  <br>
+</br>
+
+  <footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
+  
+  <center>
+    <p>XXL 2022@ </p>  
+</center>
+
+  </footer>                           
 
 </body>
 

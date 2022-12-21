@@ -27,7 +27,15 @@
 <p>Hier kan informatie opgenomen worden over zaken zoals werk zoeken, arbeidsovereenkomsten, arbeidsvoorwaarden, contracten, ethiek.</p>
 </center>
 
-<footer>
+<br>
+</br>
+
+<footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
+
+<center>
+<p>XXL 2022@ </p>  
+</center>
+
 </footer>
 
 </body>
