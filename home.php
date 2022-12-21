@@ -23,9 +23,9 @@ if (!isset($_SESSION['loggedin'])) {
 </center>
 
 <a href="#-------">Inlog</a><br />                                             <!--links naar andere pagina's-->
-  <a href="#-----">Bestand</a><br />
+  <a href="prikbord.php">Bestand</a><br />
   <a href="#-----">Account</a><br />
-  <a href="#-----">Voorlichtingspagina</a><br />                                                                   
+  <a href="Voorlichtingspagina.php">Voorlichtingspagina</a><br />                                                                   
 
 </head>
 
