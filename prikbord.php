@@ -12,6 +12,7 @@
   <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 
+<!-- button to place a message and show the message on prikbord -->
 <button onclick="openForm()"> Bericht plaatsen</button>
 
 <form id="myForm" action="submit_message.php" method="POST" style="display:none">
