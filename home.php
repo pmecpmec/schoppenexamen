@@ -16,7 +16,10 @@ if (!isset($_SESSION['loggedin'])) {
   <title>Home</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-
+  <?php
+    include 'header.php'
+    ?>
+</head>
 <center>
     <h1>Uitzendbureau XXL<h1>
     <h1>Thuispagina</h1>
@@ -51,5 +54,5 @@ if (!isset($_SESSION['loggedin'])) {
   </footer>                           
 
 </body>
-
+<footer id="footer"><?php include'footer.php' ?></footer>
 </html>

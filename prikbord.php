@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!doctype html>
 <html>
 <header>
@@ -16,8 +19,6 @@
 <button onclick="openForm()"> Bericht plaatsen</button>
 
 <form id="myForm" action="submit_message.php" method="POST" style="display:none">
-  <label for="username">Enter your username:</label><br>
-  <textarea name="username" id="username" rows="1" cols="50"></textarea><br>
   <label for="message">Enter your message:</label><br>
   <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
   <input type="submit" value="Submit">
@@ -31,7 +32,6 @@
 
 <?php
 include 'config.php';
-session_start();
 //Write the query
 $sql = "SELECT * FROM posts";
 $result = $conn->query($sql);
