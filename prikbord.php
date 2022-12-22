@@ -12,7 +12,7 @@
   <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 
-<!-- knop om een bericht op de prikbord pagina te plaatsen -->
+<!-- button to place a message and show the message on prikbord -->
 <button onclick="openForm()"> Bericht plaatsen</button>
 
 <form id="myForm" action="submit_message.php" enctype='multipart/form-data' method="POST" style="display:none">
@@ -20,6 +20,7 @@
   <textarea name="username" id="username" rows="1" cols="50"></textarea><br>
   <label for="message">Enter your message:</label><br>
   <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
+  <input type="submit" value="Submit">
 </form>
 
 <script>
@@ -31,12 +32,12 @@
 <?php
 include 'config.php';
 session_start();
-//schrijf de querry
+//Write the query
 $sql = "SELECT * FROM posts";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // spuug de data uit van de rows
+    // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<p>".$row['username']."</p>";
         echo "<p>".$row['message']."</p>";
