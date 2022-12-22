@@ -13,11 +13,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 <header>                                                                                <!--header-->
 
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>index</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   <?php
-    include 'header.php'
+    include "header.php"
     ?>
     
 <center>
@@ -41,17 +41,19 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     </center>
  
 
-  <br>
+    <br>
 </br>
 
   <footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
   
+
+
   <center>
-    <p>@ XXL 2022</p>  
+    <p>@ XXL 2022 1-800-243-0000</p>  
 </center>
 
   </footer>                           
 
-</body>
 <footer id="footer"><?php include'footer.php' ?></footer>
+</body>
 </html>

@@ -33,7 +33,7 @@
 <footer id="footer"><?php include'footer.php' ?>                                  <!--footer-->
 
 <center>
-<p>@ XXL 2022 </p>  
+<p>@ XXL 2022 1-800-243-0000</p>  
 </center>
 
 </footer>
