@@ -46,7 +46,6 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-$conn->close();
 ?>
 </div>
 
@@ -56,6 +55,13 @@ $conn->close();
 <!-- Vacature bedrijf-->
 <hr>
 <?php
+// Database connectie
+$select = "SELECT * FROM `Vacature`";
+$result = $conn->query($select);
+while($row = $result->fetch_object()){
+  $pdf = $row->filename;
+  $path = $row->directory;
+}
 echo '<p>Vacature Bedrijf</p>';
 echo'<p>Vacature functie: </p>'.$pdf;
 ?>
