@@ -10,7 +10,6 @@ $result = mysqli_query($con, $sql);
 <html>
 
 <head>
-  <title>Upload View & Download file in PHP and MySQL | Demo</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 </head>
