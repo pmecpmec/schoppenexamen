@@ -24,6 +24,31 @@ li a{
 
 li a:hover{
     color:gray;
+
+}
+
+li a, .talen{
+    display: inline-block;
+    text-align:center;
+    text-decoration:none;
+    padding: 14px 16px;
+}
+
+li.taal{
+    display:inline-block;
+}
+
+.Talen-Content{
+    display:none;
+    position:absolute;
+    min-width: 160px;
+}
+
+.Talen-Content a {text-align:left;
+display:block;}
+
+.taal:hover .Talen-Content{
+    display:block;
 }
 
 button{
