@@ -1,17 +1,17 @@
 <?php
 include 'config.php';
+session_start();
 
 // Retrieve the message from the form submission
 $message = $_POST['message'];
 $username = $_POST['username'];
-$_SESSION['username'] = $username2;
 
 // Escape the message to prevent SQL injection attacks
 $message = $conn->real_escape_string($message);
 $username = $conn->real_escape_string($username);
 
 // Insert the message into the database
-$sql = "INSERT INTO posts VALUES (NULL,'$username2','$message')";
+$sql = "INSERT INTO posts VALUES (NULL,'$username','$message')";
 
 if ($conn->query($sql) === TRUE) {
     header("Location: prikbord.php");
