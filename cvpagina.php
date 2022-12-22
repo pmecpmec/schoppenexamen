@@ -1,5 +1,6 @@
 <?php
 include_once 'config.php';
+include_once 'config.php';
 
 // fetch files
 $sql = "SELECT filename FROM tbl_files";
