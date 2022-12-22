@@ -1,5 +1,5 @@
 <?php
-include_once 'dbconnect.php';
+include_once 'config.php';
 
 // fetch files
 $sql = "select filename from tbl_files";
