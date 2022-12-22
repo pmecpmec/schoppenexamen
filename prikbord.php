@@ -50,7 +50,6 @@ if ($result->num_rows > 0) {
 </div>
 
 <!--Vacatures-->
-<div class="Vacatures">
 <hr>
 <div class="Tabel-Vacatures">
 <table>
@@ -79,7 +78,6 @@ else {
 echo "0 results";
 }
 ?>
-</div>
 <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 </html>
