@@ -10,7 +10,7 @@
         <p> demo@email.com</p>
         </div>
         <div class="footer2"">
-        <p> Company</p>
+        <p> Bedrijf</p>
         </div>
         <div class="footer3"">
         <p> Links</p>
