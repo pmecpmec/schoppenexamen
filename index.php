@@ -29,7 +29,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   <a href="prikbord.php">Bestand</a><br />
   <!--links naar andere pagina's-->
   <a href="profile.php">Account</a><br />
-  <a href="Voorlichtingspagina.php">Voorlichtingspagina</a><br />
+  <a href="voorlichting.php">Voorlichtingspagina</a><br />
 
 </header>
 
