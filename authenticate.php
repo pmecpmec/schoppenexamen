@@ -1,6 +1,6 @@
 <?php
 session_start();
-$DATABASE_HOST = '0.0.0.0'
+$DATABASE_HOST = '0.0.0.0';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '';
 $DATABASE_NAME = 'schoppenexamen';
