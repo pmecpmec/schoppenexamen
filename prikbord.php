@@ -69,7 +69,7 @@ $sql = "SELECT vacature, Bedrijf, Category, Datum plaatsing, Opleiding, duur, Ja
 $result = $conn-> query($sql);
 if ($result-> num_rows > 0) {
   while ($row = $result-> fetch_assoc()){
-    echo "<tr><td>" . $row["emptyid"] . "</td><td>" . $row["vacature"] . "</td><td>" . $row["Bedrijf"] . "</td><td>" . $row["Category"] . "</td><td>" . $row["Datum plaatsing"] . "</td><td>" . $row["Opleiding"] . "</td><td>" . $row["duur"] . "</td><td>" . $row["Jaarsalaris"] . "</td></tr>";
+    echo "<tr><td>" . $row["vacature"] . "</td><td>" . $row["Bedrijf"] . "</td><td>" . $row["Category"] . "</td><td>" . $row["Datum plaatsing"] . "</td><td>" . $row["Opleiding"] . "</td><td>" . $row["duur"] . "</td><td>" . $row["Jaarsalaris"] . "</td></tr>";
   }
   echo "</table>";
 }
