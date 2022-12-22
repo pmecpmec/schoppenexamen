@@ -25,9 +25,8 @@ if (!isset($_SESSION['loggedin'])) {
     <h1>Thuispagina</h1>
 </center>
 
-<a href="#-------">Inlog</a><br />                                             <!--links naar andere pagina's-->
-  <a href="prikbord.php">Bestand</a><br />
-  <a href="#-----">Account</a><br />
+  <a href="prikbord.php">Bestand</a><br />                                            <!--links naar andere pagina's-->
+  <a href="profile.php">Account</a><br />
   <a href="Voorlichtingspagina.php">Voorlichtingspagina</a><br />                                                                   
 
 </head>
