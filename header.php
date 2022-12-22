@@ -6,7 +6,8 @@
 
 <body>
     <div class="header">
-        <img class="headerlogoimg" src="xxl_logo.png">
+    <a href="http://20.160.155.255/index.php">
+      <img class="headerlogoimg" src="xxl_logo.png">
         <!--Toolbar-->
       <ul>
         <li><a href="#">Taal</a></li>
