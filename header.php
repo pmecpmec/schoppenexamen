@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <header>
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="style.css">
 </header>
+
 <body>
     <div class="header">
-        <img class="headerlogoimg" src="xxl_logo.png">
-        <!--Toolbar-->
-      <ul>
-        <li><a href="#">Taal</a></li>
-        <li><a href="#">Bestanden</a></li>
-        <li><a href="#">Account</a></li>
-        <li><a href="#">Login and out</a></li>
-      </ul>
+        <a href="http://20.160.155.255/index.php">
+            <img class="headerlogoimg" src="xxl_logo.png">
+            <div class="language"">
+            <button>Taal</button>
+        </a>
+        </div>
+        <div class=" file"">
+                <button><a href="prikbord.php">Bestanden</a> </button>
+            </div>
+            <div class="account"">
+            <button>Account</button>
+        </div>
+
+        <div class=" loginandout"">
+                <button>Login and out</button>
+            </div>
     </div>
 </body>
+
 </html>
