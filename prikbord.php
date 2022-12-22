@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
 <!-- Vacature bedrijf-->
 <hr>
 <?php
-// Database connectie
+// Vacature tonen vanuit db
 $select = "SELECT * FROM `Vacature`";
 $result = $conn->query($select);
 while($row = $result->fetch_object()){
