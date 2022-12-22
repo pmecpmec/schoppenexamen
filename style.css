@@ -1,3 +1,62 @@
+/*Header */
+
+li{
+    float:right;
+	width:200px;
+}
+
+ul{
+    list-style-type:none;
+	width:1200px;
+	height:100px;
+	float:right;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li a{
+    display:inline-block;
+    color:black;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+}
+
+li a:hover{
+    color:gray;
+
+}
+
+li a, .talen{
+    display: inline-block;
+    text-align:center;
+    text-decoration:none;
+    padding: 14px 16px;
+}
+
+li.taal{
+    display:inline-block;
+}
+
+.Talen-Content{
+    display:none;
+    position:absolute;
+    min-width: 160px;
+}
+
+.Talen-Content a {text-align:left;
+display:block;}
+
+.taal:hover .Talen-Content{
+    display:block;
+}
+
+button{
+    border:2px;
+    border-color:black;
+    border-style:outset;}
+
+
 /*Dit is voor de download CV pagina*/
 .Download {
 text-align:left;
@@ -62,10 +121,12 @@ margin-left:30px;
     margin-top:60px;
 }
 
-.Vacatures{
-width:400px;
-margin-left:400px;
-}
+
+.Tabel-Vacatures{font-size:25px; 
+	text-decoration:none;
+padding:none;
+text-decoration:none;
+margin-left:400px;}
 
 /*Dit is voor de admin CV pagina*/
 .Admin{

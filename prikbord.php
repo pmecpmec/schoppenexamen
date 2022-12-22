@@ -50,24 +50,34 @@ if ($result->num_rows > 0) {
 </div>
 
 <!--Vacatures-->
-<div class="Vacatures">
-  
-<!-- Vacature bedrijf-->
 <hr>
-<?php
-// Vacature tonen vanuit db
-$select = "SELECT * FROM `Vacature`";
-$result = $conn->query($select);
-while($row = $result->fetch_object()){
-  $pdf = $row->filename;
-  $path = $row->directory;
-}
-echo '<p>Vacature Bedrijf</p>';
-echo'<p>Vacature functie: </p>'.$pdf;
-?>
+<div class="Tabel-Vacatures">
+<table>
+  <tr>
+    <th>Vacature</th>
+    <th>Bedrijf</th>
+    <th>Categorie</th>
+    <th>Datum</th>
+    <th>Opleiding</th>
+    <th>Duur</th>
+    <th>Jaarsalaris</th>
+  </tr>
+</table>
 </div>
-<iframe src="<?php echo $path.$pdf; ?>" width="60%" height="350px">
-
+<?php
+//Vacatures tonen vanuit DB
+$sql = "SELECT vacature, Bedrijf, Category, Datum plaatsing, Opleiding, duur, Jaarsalaris from vacature";
+$result = $conn-> query($sql);
+if ($result-> num_rows > 0) {
+  while ($row = $result-> fetch_assoc()){
+    echo "<tr><td>" . $row["vacature"] . "</td><td>" . $row["Bedrijf"] . "</td><td>" . $row["Category"] . "</td><td>" . $row["Datum plaatsing"] . "</td><td>" . $row["Opleiding"] . "</td><td>" . $row["duur"] . "</td><td>" . $row["Jaarsalaris"] . "</td></tr>";
+  }
+  echo "</table>";
+}
+else {
+echo "0 results";
+}
+?>
 <footer id="footer"><?php include'footer.php' ?></footer>
 </body>
 </html>
