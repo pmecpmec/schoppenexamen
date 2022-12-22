@@ -1,6 +1,6 @@
 <?php
 session_start();
-$DATABASE_HOST = 'localhost';
+$DATABASE_HOST = '0.0.0.0';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = 'mysql1234';
 $DATABASE_NAME = 'phplogin';
