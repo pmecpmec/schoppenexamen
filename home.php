@@ -10,7 +10,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 <html>
 
-<head>                                                                                <!--head-->
+<header>                                                                                <!--header-->
 
   <meta charset="utf-8">
   <title>Home</title>
@@ -19,7 +19,7 @@ if (!isset($_SESSION['loggedin'])) {
   <?php
     include 'header.php'
     ?>
-</head>
+    
 <center>
     <h1>Uitzendbureau XXL<h1>
     <h1>Thuispagina</h1>
@@ -29,7 +29,7 @@ if (!isset($_SESSION['loggedin'])) {
   <a href="profile.php">Account</a><br />
   <a href="Voorlichtingspagina.php">Voorlichtingspagina</a><br />                                                                   
 
-</head>
+</header>
 
 <br>
 </br>
