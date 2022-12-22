@@ -5,7 +5,7 @@
 </header>
 <body>
     <div class="header">
-        <img class="headerlogoimg" src="xxl_logo.png">
+      <img class="headerlogoimg" src="xxl_logo.png" href="index.php">
         <!--Toolbar-->
       <ul>
         <li><a href="#">Taal</a></li>
