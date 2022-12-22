@@ -1,3 +1,37 @@
+/*Header */
+
+li{
+    float:right;
+	width:300px;
+}
+
+ul{
+    list-style-type:none;
+	width:1200px;
+	height:100px;
+	float:right;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li a{
+    display:inline-block;
+    color:black;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+}
+
+li a:hover{
+    color:gray;
+}
+
+button{
+    border:2px;
+    border-color:black;
+    border-style:outset;}
+
+
 /*Dit is voor de download CV pagina*/
 .Download {
 text-align:left;
