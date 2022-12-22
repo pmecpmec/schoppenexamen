@@ -10,7 +10,7 @@
             <button>Taal</button>
         </div>
         <div class="file"">
-            <button>Bestanden</button>
+            <button><a href="prikbord.php">Bestanden</a> </button>
         </div>
         <div class="account"">
             <button>Account</button>

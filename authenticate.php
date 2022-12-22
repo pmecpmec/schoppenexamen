@@ -1,6 +1,6 @@
 <?php
 session_start();
-$DATABASE_HOST = '0.0.0.0';
+$DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '';
 $DATABASE_NAME = 'phplogin';
@@ -33,7 +33,6 @@ if ($stmt->num_rows > 0) {
     $_SESSION['loggedin'] = TRUE;
     $_SESSION['name'] = $_POST['username'];
     $_SESSION['username'] = $username;
-    $_SESSION['username'] = $username2;
     $_SESSION['id'] = $id;
     header('Location: home.php');
   } else {
