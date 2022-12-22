@@ -52,6 +52,7 @@ if ($result->num_rows > 0) {
 <!--Vacatures-->
 <div class="Vacatures">
 <hr>
+<div class="Tabel-Vacatures">
 <table>
   <tr>
     <th>Vacature</th>
@@ -63,6 +64,7 @@ if ($result->num_rows > 0) {
     <th>Jaarsalaris</th>
   </tr>
 </table>
+</div>
 <?php
 //Vacatures tonen vanuit DB
 $sql = "SELECT vacature, Bedrijf, Category, Datum plaatsing, Opleiding, duur, Jaarsalaris from vacature";
