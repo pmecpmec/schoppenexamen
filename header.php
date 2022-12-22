@@ -9,11 +9,10 @@
     <a href="http://20.160.155.255/index.php">
       <img class="headerlogoimg" src="xxl_logo.png">
       <ul>
-        <li><a href="#">Taal</a></li>">
-        <li><a href="20.160.155.255/prikbord.php">Bestanden</a></li>
-        <li><a href="20.160.155.255/profile.php">Account</a></li>
-        <li><a href="20.160.155.255/login.php">Login</a></li>
         <li><a href="20.160.155.255/register.php">Registreren</a></li>
+        <li><a href="20.160.155.255/login.php">Login</a></li>
+        <li><a href="20.160.155.255/prikbord.php">Bestanden</a></li>
+        <li><a href="20.160.155.255/profile.php">Account</a></li <li><a href="#">Taal</a></li>
       </ul>
   </div>
 </body>
