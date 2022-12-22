@@ -9,7 +9,7 @@ if (!isset($_SESSION['loggedin'])) {
 $DATABASE_HOST = '0.0.0.0';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '1234';
-$DATABASE_NAME = 'phplogin';
+$DATABASE_NAME = 'schoppenexamen';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if (mysqli_connect_errno()) {
   exit('Failed to connect to MySQL: ' . mysqli_connect_error());
@@ -32,8 +32,8 @@ $stmt->close();
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   <?php
-include 'header.php'
-?>
+  include 'header.php'
+  ?>
 </head>
 
 <body class="loggedin">
@@ -64,7 +64,7 @@ include 'header.php'
       </table>
     </div>
   </div>
-  <footer id="footer"><?php include'footer.php' ?></footer>
+  <footer id="footer"><?php include 'footer.php' ?></footer>
 </body>
 
 </html>
