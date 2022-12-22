@@ -12,7 +12,7 @@
   <input type="text" name="text" class="search" placeholder="Search For">
 </form>
 
-<!-- button to place a message and show the message on prikbord -->
+<!-- knop om een bericht op de prikbord pagina te plaatsen -->
 <button onclick="openForm()"> Bericht plaatsen</button>
 
 <form id="myForm" action="submit_message.php" enctype='multipart/form-data' method="POST" style="display:none">
@@ -20,8 +20,6 @@
   <textarea name="username" id="username" rows="1" cols="50"></textarea><br>
   <label for="message">Enter your message:</label><br>
   <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
-  <input type='file' name='file' />
-  <input type="submit" value="Submit" name='but_upload'>
 </form>
 
 <script>
@@ -33,12 +31,12 @@
 <?php
 include 'config.php';
 session_start();
-//Write the query
+//schrijf de querry
 $sql = "SELECT * FROM posts";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
+    // spuug de data uit van de rows
     while($row = $result->fetch_assoc()) {
         echo "<p>".$row['username']."</p>";
         echo "<p>".$row['message']."</p>";
