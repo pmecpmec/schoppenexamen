@@ -20,8 +20,7 @@
   <textarea name="username" id="username" rows="1" cols="50"></textarea><br>
   <label for="message">Enter your message:</label><br>
   <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
-  <input type='file' name='file' />
-  <input type="submit" value="Submit" name='but_upload'>
+  <input type="submit" value="Submit">
 </form>
 
 <script>
